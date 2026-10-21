@@ -18,6 +18,9 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 - `assets/` — `veyra-logo.png` (the supplied horizontal logo with its black background made transparent; do not redraw or recolor) plus `veyra-logo.webp`, a pixel-identical lossless copy served via `<picture>`; favicon, share image (`og-image.jpg`, 1200×630).
 - `assets/fonts/` — self-hosted Sora, Manrope and JetBrains Mono (variable woff2, latin subset), declared with `@font-face` at the top of `styles.css`. No Google Fonts requests.
 
+## Security headers
+- `_headers` sets HSTS and a strict Content-Security-Policy: only same-origin scripts, styles, fonts and images (inline `style` attributes allowed, inline `<script>` code is not). Adding any third-party script, font, image, iframe or analytics requires updating the CSP in `_headers`, or it will be blocked in production.
+
 ## SEO
 - Each page has a `<link rel="canonical">` and Open Graph tags with absolute `https://veyra-trading.com/...` URLs. Keep them absolute.
 - The homepage carries `Organization` + `WebSite` JSON-LD. Only add facts that are true; no ratings or review markup.
