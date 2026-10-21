@@ -13,10 +13,10 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 - `styles.css` — all styles. Design tokens (colors, fonts, spacing) are CSS variables at the top in `:root`.
 - `main.js` — mobile menu, FAQ accordion, mobile sticky CTA, wires LaunchPass links.
 - `config.js` — `JOIN_URL` and `MEMBER_URL` (LaunchPass links). Change links here, not in the HTML.
-- `assets/` — logo (supplied file, do not redraw or recolor), favicon, share image.
+- `assets/` — `veyra-logo.png` (the supplied horizontal logo with its black background made transparent; do not redraw or recolor), favicon, share image.
 
 ## Brand rules
-- Dark UI: bg `#080A0D`, sections `#0D1117`, cards `#131922`, borders `#252E3A`, text `#F5F6F8` / `#A4ADBA`, accent blue `#67C4EB` (hover `#8DD8F5`). Blue only for actions, selected states and a few details. No purple, no gold, no glow everywhere.
+- Dark UI: bg `#080A0D`, sections `#0D1117`, cards `#131922`, borders `#252E3A`, text `#F5F6F8` / `#A4ADBA`, accent blue `#54B4FC` (hover `#86CBFD`), sampled from the logo. Blue only for actions, selected states and a few details. No purple, no gold, no glow everywhere.
 - Fonts: Sora (headings), Manrope (body), JetBrains Mono (small labels).
 - Angular details inspired by the V logo, used sparingly.
 - Copy is English, first person, direct.
