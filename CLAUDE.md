@@ -13,7 +13,15 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 - `styles.css` — all styles. Design tokens (colors, fonts, spacing) are CSS variables at the top in `:root`.
 - `main.js` — mobile menu, FAQ accordion, mobile sticky CTA, wires LaunchPass links.
 - `config.js` — `JOIN_URL` and `MEMBER_URL` (LaunchPass links). Change links here, not in the HTML.
-- `assets/` — `veyra-logo.png` (the supplied horizontal logo with its black background made transparent; do not redraw or recolor), favicon, share image.
+- `404.html` — not-found page (served by Cloudflare Pages with a real 404 status). Uses root-relative paths (`/styles.css`) because it can be served at any URL depth.
+- `robots.txt`, `sitemap.xml` — update `sitemap.xml` (and its `lastmod`) when a page is added or changed.
+- `assets/` — `veyra-logo.png` (the supplied horizontal logo with its black background made transparent; do not redraw or recolor) plus `veyra-logo.webp`, a pixel-identical lossless copy served via `<picture>`; favicon, share image (`og-image.jpg`, 1200×630).
+- `assets/fonts/` — self-hosted Sora, Manrope and JetBrains Mono (variable woff2, latin subset), declared with `@font-face` at the top of `styles.css`. No Google Fonts requests.
+
+## SEO
+- Each page has a `<link rel="canonical">` and Open Graph tags with absolute `https://veyra-trading.com/...` URLs. Keep them absolute.
+- The homepage carries `Organization` + `WebSite` JSON-LD. Only add facts that are true; no ratings or review markup.
+- Link to clean URLs: `/`, `/legal` (Cloudflare Pages strips `.html`).
 
 ## Brand rules
 - Dark UI: bg `#080A0D`, sections `#0D1117`, cards `#131922`, borders `#252E3A`, text `#F5F6F8` / `#A4ADBA`, accent blue `#54B4FC` (hover `#86CBFD`), sampled from the logo. Blue only for actions, selected states and a few details. No purple, no gold, no glow everywhere.
