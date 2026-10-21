@@ -12,6 +12,10 @@
   }
   wire("[data-join]", cfg.JOIN_URL);
   wire("[data-member]", cfg.MEMBER_URL);
+  // No member portal link yet: hide "Member Access" rather than send members to the pricing section.
+  if (!cfg.MEMBER_URL) {
+    document.querySelectorAll("[data-member]").forEach(function (a) { a.hidden = true; a.style.display = "none"; });
+  }
 
   // ---- Mobile menu ----
   var menuBtn = document.querySelector(".menu-btn");

@@ -7,6 +7,6 @@
   While a link is empty, its buttons scroll to the pricing section instead.
 */
 window.VEYRA_CONFIG = {
-  JOIN_URL: "",    // e.g. "https://www.launchpass.com/veyra/alpha"
+  JOIN_URL: "https://www.launchpass.com/veyra-trading/alpha-membership",
   MEMBER_URL: ""   // LaunchPass member portal link (billing, cancellation)
 };
