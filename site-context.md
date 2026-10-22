@@ -21,7 +21,7 @@ Règle : rien ici n'est inventé. Ce qui n'a pas encore été fourni reste marqu
 
 ## 3. Qui achète, et avec quels mots
 - Acheteurs : tous types de traders (indiqué par le propriétaire, sans segment prioritaire).
-- Mots employés par les acheteurs : à compléter.
+- Mots employés par les acheteurs : « prop firm signals » (indiqué par le propriétaire). D'autres termes restent à confirmer avec des données réelles (Search Console, questions des membres).
 
 ## 4. Concurrents principaux
 À compléter.
