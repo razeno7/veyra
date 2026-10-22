@@ -24,9 +24,18 @@ Règle : rien ici n'est inventé. Ce qui n'a pas encore été fourni reste marqu
 - Mots employés par les acheteurs : « prop firm signals » (indiqué par le propriétaire). D'autres termes restent à confirmer avec des données réelles (Search Console, questions des membres).
 
 ## 4. Concurrents principaux
-À compléter.
+Liste fournie par le propriétaire. Descriptions relevées sur leurs pages publiques le 22 octobre 2026 ; leurs chiffres et promesses sont les leurs, non vérifiés.
 
-## 5. Autorité actuelle
+- **Prop Firm Live Signals** — https://www.propfirmlivesignals.com/
+  Signaux forex par alertes et service payant de « passage de challenge » à la place du client (de 500 $ pour 50K à 3 000 $ pour 1M, non remboursable). Prix des signaux non affichés sur la page. Met en avant un « taux de réussite garanti de 90 % », 3 000+ traders, une note 4,7 et des témoignages.
+- **Spartan Trading (« Prop Firm Signals »)** — https://spartantrading.gumroad.com/l/gKjw
+  Page Gumroad : alertes en temps réel (achat, vente, attente) pour passer des challenges de prop firms. Instruments, canal de diffusion et prix non précisés.
+- **A1 Trading VIP** — https://www.a1trading.com/vip/
+  Communauté de signaux plus large : plusieurs analystes nommés, forex, indices, matières premières, actions et options ; Discord VIP 24/7, bibliothèque de stratégies, webinaires de coaching. Formules mensuelle, annuelle et à vie (prix non lisibles sur la page). Publie des performances par analyste avec vérification externe (MyFxBook, Darwinex) et précise qu'il ne garantit pas de profits.
+
+Ce qui distingue Veyra : un seul trader, un seul marché (NQ), des signaux annoncés en direct pendant un stream quotidien, un prix mensuel affiché, et un remboursement lié au R du mois plutôt qu'un taux de réussite promis.
+
+## 5. Autorité actuelle (aucune donnée connectée)
 - Domain Rating : non disponible.
 - Domaines référents : non disponible.
 - Raison : aucun outil de données SEO (Ahrefs, Semrush…) n'est connecté, et le site est en ligne depuis le 21 octobre 2026. Ne pas estimer.
