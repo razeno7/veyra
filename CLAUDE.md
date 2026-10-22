@@ -23,7 +23,7 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 
 ## SEO
 - Each page has a `<link rel="canonical">` and Open Graph tags with absolute `https://veyra-trading.com/...` URLs. Keep them absolute.
-- The homepage carries `Organization` + `WebSite` JSON-LD. Only add facts that are true; no ratings or review markup.
+- The homepage carries `Organization` + `WebSite` + `Service` (Alpha Membership, with its `Offer`) JSON-LD; keep the price in sync with the page. Only add facts that are true; no ratings or review markup.
 - Link to clean URLs: `/`, `/legal` (Cloudflare Pages strips `.html`).
 
 ## Brand rules
