@@ -20,7 +20,8 @@ Règle : rien ici n'est inventé. Ce qui n'a pas encore été fourni reste marqu
 - Pour qui : tous niveaux d'expérience. Utilisable sur comptes futures réels, challenges de prop firms futures et CFD, et comptes financés de prop firms.
 
 ## 3. Qui achète, et avec quels mots
-À compléter.
+- Acheteurs : tous types de traders (indiqué par le propriétaire, sans segment prioritaire).
+- Mots employés par les acheteurs : à compléter.
 
 ## 4. Concurrents principaux
 À compléter.
