@@ -23,6 +23,10 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 ## Security headers
 - `_headers` sets HSTS and a strict Content-Security-Policy: only same-origin scripts, styles, fonts and images (inline `style` attributes allowed, inline `<script>` code is not). Adding any third-party script, font, image, iframe or analytics requires updating the CSP in `_headers`, or it will be blocked in production.
 
+## Analytics
+- Google Analytics 4, measurement ID `G-H212X7G6Y8`, on every page (`index.html`, `legal.html`, `404.html`): the gtag.js loader in `<head>` plus `/analytics.js` (the config, kept out of inline script for the CSP). Any new page must include both lines.
+- The CSP in `_headers` allows `googletagmanager.com` and `google-analytics.com` for this. The privacy section of `legal.html` mentions Google Analytics; keep it accurate.
+
 ## SEO
 - Each page has a `<link rel="canonical">` and Open Graph tags with absolute `https://veyra-trading.com/...` URLs. Keep them absolute.
 - The homepage carries `Organization` + `WebSite` + `Service` (Alpha Membership, with its `Offer`) JSON-LD; keep the price in sync with the page. Only add facts that are true; no ratings or review markup.
