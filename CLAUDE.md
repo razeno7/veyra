@@ -1,5 +1,7 @@
 # Veyra Trading — website
 
+**Before any page, content or SEO work, read `site-context.md` (business facts, audience, competitors, limits) and follow every rule in `seo-process.md`.**
+
 Static marketing site for Veyra Trading, a private Discord membership (Alpha Membership, $200/month) offering NQ futures signals called live during daily streams.
 
 ## Stack
