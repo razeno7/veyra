@@ -43,7 +43,8 @@ Ce qui distingue Veyra : un seul trader, un seul marché (NQ), des signaux annon
 - Raison : aucun outil de données SEO (Ahrefs, Semrush…) n'est connecté, et le site est en ligne depuis le 21 octobre 2026. Ne pas estimer.
 
 ## 6. Pages qui rapportent
-- Non disponible : Google Search Console n'est pas encore connectée, et le site est trop récent pour avoir des données de clics.
+- Google Search Console : propriété de domaine vérifiée par DNS le 24 octobre 2026. Les données ne sont pas lisibles par les outils de ce dépôt (pas d'accès API Google) : demander les chiffres au propriétaire.
+- Données de clics : non disponibles, le site est trop récent (en ligne depuis le 21 octobre 2026).
 
 ## 7. Ce qu'on ne doit jamais faire
 - Inventer des résultats, des captures de trades, des témoignages, des avis, des notes en étoiles, un nombre de membres ou des promesses de gains.

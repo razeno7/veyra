@@ -17,7 +17,7 @@ Business facts, audience, competitors and limits are in `site-context.md`. Read 
 
 ## Known constraints (October 2026)
 
-- **Rule 1 / 9:** Search Console is not connected to this repository's tooling yet, and the site went live on 21 October 2026. Until click data exists, treat `/` as a page that gets clicks: always show the diff before publishing changes to it.
+- **Rule 1 / 9:** Search Console is set up: the domain property was verified by DNS (TXT record `google-site-verification`) on 24 October 2026. Its data is not readable from this repository's tooling (no Google API credentials), so ask the owner for Search Console figures instead of assuming there are none. The site went live on 21 October 2026; until click data exists, treat `/` as a page that gets clicks: always show the diff before publishing changes to it.
 - **Rule 3:** the site has four pages (`/`, `/about`, `/prop-firm-signals`, `/legal`). Five topical body links per page are not possible yet. As of 25 October 2026: `/prop-firm-signals` gets 3 (2 from `/`, 1 from `/about`), `/about` gets 2 (1 from `/`, 1 from `/prop-firm-signals`), plus footer links. Do not add forced or off-topic links to reach the number; flag the shortfall instead, and add links from each new on-topic page.
 - **Rule 5:** the trader's public alias is **Veyra** (owner, 25 October 2026). The `Person` node lives on `/about` with `@id` `https://veyra-trading.com/about#veyra`; reference that `@id` as `author` on any new article. Google no longer shows FAQ rich results for most sites; `FAQPage` is still valid markup but expect no visual effect in search.
 
