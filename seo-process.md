@@ -18,6 +18,17 @@ Business facts, audience, competitors and limits are in `site-context.md`. Read 
 ## Known constraints (October 2026)
 
 - **Rule 1 / 9:** Search Console is not connected to this repository's tooling yet, and the site went live on 21 October 2026. Until click data exists, treat `/` as a page that gets clicks: always show the diff before publishing changes to it.
-- **Rule 3:** the site has only two pages (`/`, `/legal`). Five topical internal links are not possible until enough related pages exist. Do not add forced or off-topic links to reach the number; flag the shortfall instead.
-- **Rule 5:** no `Person` schema until the owner supplies the public name or alias to use (the homepage has no author section). Google no longer shows FAQ rich results for most sites; `FAQPage` is still valid markup but expect no visual effect in search.
+- **Rule 3:** the site has four pages (`/`, `/about`, `/prop-firm-signals`, `/legal`). Five topical body links per page are not possible yet. As of 25 October 2026: `/prop-firm-signals` gets 3 (2 from `/`, 1 from `/about`), `/about` gets 2 (1 from `/`, 1 from `/prop-firm-signals`), plus footer links. Do not add forced or off-topic links to reach the number; flag the shortfall instead, and add links from each new on-topic page.
+- **Rule 5:** the trader's public alias is **Veyra** (owner, 25 October 2026). The `Person` node lives on `/about` with `@id` `https://veyra-trading.com/about#veyra`; reference that `@id` as `author` on any new article. Google no longer shows FAQ rich results for most sites; `FAQPage` is still valid markup but expect no visual effect in search.
+
+## Keyword and anchor map (rules 2 and 4)
+
+| Page | Main keyword (title starts with it) | Anchor text used to link to it |
+|---|---|---|
+| `/` | NQ futures signals | "NQ futures signals" |
+| `/about` | About Veyra | "About Veyra" |
+| `/prop-firm-signals` | prop firm signals | "prop firm signals" |
+| `/legal` | none (legal page) | "Terms", "Privacy", "Risk disclosure", "Billing & cancellation" (footer) |
+
+Add a row for every new page, and never reuse an anchor from this table for a different page.
 - **Rule 5 + `site-context.md`:** never add `Review`, `AggregateRating` or any rating markup.

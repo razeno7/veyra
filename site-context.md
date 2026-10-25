@@ -7,7 +7,7 @@ Règle : rien ici n'est inventé. Ce qui n'a pas encore été fourni reste marqu
 - URL : https://veyra-trading.com
 - CMS : aucun. Site statique (HTML, CSS, JavaScript) dans le dépôt GitHub `razeno7/veyra`, hébergé sur Cloudflare Pages, redéployé automatiquement à chaque push sur `main`.
 - Paiement et accès Discord : LaunchPass (Stripe en dessous). Page d'inscription : https://www.launchpass.com/veyra-trading/alpha-membership
-- Pages : `/` (accueil), `/legal` (conditions, confidentialité, risques, facturation).
+- Pages : `/` (accueil), `/about` (le trader), `/prop-firm-signals` (guide, mot-clé « prop firm signals »), `/legal` (conditions, confidentialité, risques, facturation).
 
 ## 2. Ce qu'on vend, à qui, à quel prix
 - Offre : Alpha Membership, une membership Discord privée.
@@ -18,6 +18,7 @@ Règle : rien ici n'est inventé. Ce qui n'a pas encore été fourni reste marqu
   - accès au Discord privé.
 - Garantie : si le total en R des signaux sur le mois de facturation du membre est nul ou négatif, les 200 $ de ce mois sont remboursés en totalité. Le R est suivi personnellement par le trader. Aucun autre remboursement.
 - Pour qui : tous niveaux d'expérience. Utilisable sur comptes futures réels, challenges de prop firms futures et CFD, et comptes financés de prop firms.
+- Le trader : **Veyra** (pseudonyme public), plus de 7 ans de trading sur les futures (indiqué par le propriétaire le 25 octobre 2026). Rien d'autre n'a été fourni (vrai nom, photo, profils publics, résultats) : ne rien inventer.
 
 ## 3. Qui achète, et avec quels mots
 - Acheteurs : tous types de traders (indiqué par le propriétaire, sans segment prioritaire).

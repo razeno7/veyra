@@ -1,6 +1,6 @@
 # Veyra Trading — website
 
-**Before any page, content or SEO work, read `site-context.md` (business facts, audience, competitors, limits) and follow every rule in `seo-process.md`.**
+**Before any page, content or SEO work, read `site-context.md` (business facts, audience, competitors, limits) and follow every rule in `seo-process.md`. Before any growth or marketing task, read `GROWTH.md` and follow its rules.**
 
 Static marketing site for Veyra Trading, a private Discord membership (Alpha Membership, $200/month) offering NQ futures signals called live during daily streams.
 
@@ -12,6 +12,9 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 ## Files
 - `index.html` — homepage (all sections).
 - `legal.html` — terms, privacy, risk disclosure, billing & cancellation.
+- `about.html` — "About Veyra": who calls the signals. Carries the `Person` JSON-LD (`@id` `https://veyra-trading.com/about#veyra`) that other pages reference.
+- `prop-firm-signals.html` — guide targeting "prop firm signals" (`Article` JSON-LD, author = the `Person` above). Names no specific firm; any claim about a named firm must link that firm's own rules page.
+- `llms.txt` — plain-text site summary for AI tools. Update its page list when a page is added.
 - `styles.css` — all styles. Design tokens (colors, fonts, spacing) are CSS variables at the top in `:root`.
 - `main.js` — mobile menu, FAQ accordion, mobile sticky CTA, wires LaunchPass links.
 - `config.js` — `JOIN_URL` and `MEMBER_URL` (LaunchPass links). Change links here, not in the HTML.
@@ -30,7 +33,9 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 ## SEO
 - Each page has a `<link rel="canonical">` and Open Graph tags with absolute `https://veyra-trading.com/...` URLs. Keep them absolute.
 - The homepage carries `Organization` + `WebSite` + `Service` (Alpha Membership, with its `Offer`) JSON-LD; keep the price in sync with the page. Only add facts that are true; no ratings or review markup.
-- Link to clean URLs: `/`, `/legal` (Cloudflare Pages strips `.html`).
+- Link to clean URLs: `/`, `/about`, `/prop-firm-signals`, `/legal` (Cloudflare Pages strips `.html`).
+- Content pages (about, guides) use `<main class="prose">` and end with a `.page-cta` block.
+- Favicons: `favicon-96.png` + `favicon-32.png` in `<head>`, `favicon.ico` at the root.
 
 ## Brand rules
 - Dark UI: bg `#080A0D`, sections `#0D1117`, cards `#131922`, borders `#252E3A`, text `#F5F6F8` / `#A4ADBA`, accent blue `#54B4FC` (hover `#86CBFD`), sampled from the logo. Blue only for actions, selected states and a few details. No purple, no gold, no glow everywhere.
@@ -50,4 +55,5 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 - Signals are called live during the stream in the private Discord.
 - Refund: full refund of the month's $200 if the total R of the signals over the member's billing month is zero or negative. No other refunds.
 - Cancel anytime. All experience levels welcome.
+- Trader: Veyra (public alias), more than 7 years trading futures. Nothing else about the trader (real name, photo, results, profiles) has been supplied; don't add any.
 - Contact: contact@veyra-trading.com

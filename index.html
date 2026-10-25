@@ -7,6 +7,7 @@
 <meta name="description" content="NQ futures signals called live on my Discord stream, Mon–Fri from the 9:30 ET open. Alpha Membership: $200/month, cancel anytime.">
 <meta name="theme-color" content="#080A0D">
 <link rel="canonical" href="https://veyra-trading.com/">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon-96.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <meta property="og:type" content="website">
@@ -35,6 +36,13 @@
       "email": "contact@veyra-trading.com"
     },
     {
+      "@type": "Person",
+      "@id": "https://veyra-trading.com/about#veyra",
+      "name": "Veyra",
+      "url": "https://veyra-trading.com/about",
+      "worksFor": { "@id": "https://veyra-trading.com/#organization" }
+    },
+    {
       "@type": "Service",
       "@id": "https://veyra-trading.com/#alpha-membership",
       "name": "Alpha Membership",
@@ -46,6 +54,13 @@
         "@type": "Offer",
         "price": "200",
         "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "200",
+          "priceCurrency": "USD",
+          "billingDuration": "P1M",
+          "referenceQuantity": { "@type": "QuantitativeValue", "value": "1", "unitCode": "MON" }
+        },
         "url": "https://veyra-trading.com/#membership"
       }
     },
@@ -157,7 +172,7 @@
     <p class="label">01 / Inside the Desk</p>
     <div class="section-head">
       <h2 class="h2">Follow the signals.<br>Join the sessions.</h2>
-      <p class="lead">One private space to access my NQ trading signals and live trading sessions.</p>
+      <p class="lead">One private space to access my NQ trading signals and live trading sessions. I’m Veyra, and I’ve traded futures for more than 7 years.</p>
     </div>
 
     <div class="panels">
@@ -217,7 +232,7 @@
     <div class="accounts">
       <div class="intro">
         <h3>Built for the accounts you trade.</h3>
-        <p>The signals are called on NQ and can be followed on any of these. Always check your firm’s rules on trading from signals.</p>
+        <p>The signals are called on NQ and can be followed on any of these. Always check your firm’s rules on trading from signals first; my guide to <a href="/prop-firm-signals">prop firm signals</a> covers what to look for.</p>
       </div>
       <ul>
         <li><span class="shard" aria-hidden="true"></span>Live futures accounts</li>
@@ -372,6 +387,8 @@
     <div class="faq-list">
       <div class="faq-item"><h3><button type="button" class="faq-q" aria-expanded="true">What is included in the membership?<span class="faq-sign" aria-hidden="true">+</span></button></h3>
         <div class="faq-a"><p>The Alpha Membership is $200 per month and includes private Discord access, my NQ trading signals and my live trading sessions.</p></div></div>
+      <div class="faq-item"><h3><button type="button" class="faq-q" aria-expanded="false">Who calls the signals?<span class="faq-sign" aria-hidden="true">+</span></button></h3>
+        <div class="faq-a" hidden><p>I do. I’m Veyra, and I’ve been trading futures for more than 7 years. I call every signal myself, live on NQ, during the stream. More in <a href="/about">About Veyra</a>.</p></div></div>
       <div class="faq-item"><h3><button type="button" class="faq-q" aria-expanded="false">When are the live sessions?<span class="faq-sign" aria-hidden="true">+</span></button></h3>
         <div class="faq-a" hidden><p>Monday to Friday, for the first 2–3 hours of the US session, starting at the 9:30 a.m. New York open.</p></div></div>
       <div class="faq-item"><h3><button type="button" class="faq-q" aria-expanded="false">How are signals delivered?<span class="faq-sign" aria-hidden="true">+</span></button></h3>
@@ -379,7 +396,7 @@
       <div class="faq-item"><h3><button type="button" class="faq-q" aria-expanded="false">What trading experience is expected?<span class="faq-sign" aria-hidden="true">+</span></button></h3>
         <div class="faq-a" hidden><p>All experience levels are welcome. If you are new, make sure you understand futures, leverage and the risk of loss before you trade. The membership does not remove that risk.</p></div></div>
       <div class="faq-item"><h3><button type="button" class="faq-q" aria-expanded="false">Can I use the signals on a prop-firm account?<span class="faq-sign" aria-hidden="true">+</span></button></h3>
-        <div class="faq-a" hidden><p>Yes. The signals are on NQ and can be followed on live futures accounts, futures and CFD prop-firm challenges, and funded prop-firm accounts. Every prop firm has its own rules, and some restrict trading from third-party signals or copy trading, so check yours first. Following the signals does not guarantee you will pass a challenge or keep a funded account.</p></div></div>
+        <div class="faq-a" hidden><p>Yes. The signals are on NQ and can be followed on live futures accounts, futures and CFD prop-firm challenges, and funded prop-firm accounts. Every prop firm has its own rules, and some restrict trading from third-party signals or copy trading, so check yours first (my guide to <a href="/prop-firm-signals">prop firm signals</a> lists what to look for). Following the signals does not guarantee you will pass a challenge or keep a funded account.</p></div></div>
       <div class="faq-item"><h3><button type="button" class="faq-q" aria-expanded="false">Can I follow on MNQ or a NAS100 CFD?<span class="faq-sign" aria-hidden="true">+</span></button></h3>
         <div class="faq-a" hidden><p>Yes. The signals are called on NQ, the E-mini Nasdaq-100 future. MNQ, the Micro E-mini, tracks the same index at the same price with a tenth of the size, so the levels carry over directly. On CFD prop-firm accounts the Nasdaq-100 is usually listed as NAS100 or US100; its price can differ slightly from NQ, so adjust entry, stop and target to your instrument. Position size is always your decision.</p></div></div>
       <div class="faq-item"><h3><button type="button" class="faq-q" aria-expanded="false">What time is the session where I live?<span class="faq-sign" aria-hidden="true">+</span></button></h3>
@@ -424,7 +441,9 @@
         <picture><source srcset="assets/veyra-logo.webp" type="image/webp"><img src="assets/veyra-logo.png" alt="Veyra Trading" width="520" height="141" loading="lazy"></picture>
         <p>Contact: <a href="mailto:contact@veyra-trading.com">contact@veyra-trading.com</a></p>
       </div>
-      <nav class="footer-nav" aria-label="Legal and billing">
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/about">About Veyra</a>
+        <a href="/prop-firm-signals">Prop firm signals</a>
         <a href="/legal#terms">Terms</a>
         <a href="/legal#privacy">Privacy</a>
         <a href="/legal#risk">Risk disclosure</a>
