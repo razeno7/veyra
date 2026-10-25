@@ -55,5 +55,7 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 - Signals are called live during the stream in the private Discord.
 - Refund: full refund of the month's $200 if the total R of the signals over the member's billing month is zero or negative. No other refunds.
 - Cancel anytime. All experience levels welcome.
-- Trader: Veyra (public alias), more than 7 years trading futures. Nothing else about the trader (real name, photo, results, profiles) has been supplied; don't add any.
+- Trader: Veyra (public alias), more than 7 years trading futures. Nothing else about the trader (real name, photo, results) has been supplied; don't add any.
+- X account: https://x.com/HisokAAA777 (display name "Veyra Trading", bio links to the site). It's the brand's account: `sameAs` on the `Organization`, `twitter:site`, footer link on `/`, `/about`, `/prop-firm-signals`.
+- TradingView profile: https://www.tradingview.com/u/Veyraaaa/ (the trader's own profile): `sameAs` on the `Person`, footer link on `/`, `/about`, `/prop-firm-signals`, mentioned in the About contact section.
 - Contact: contact@veyra-trading.com

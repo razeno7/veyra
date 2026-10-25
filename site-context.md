@@ -18,7 +18,8 @@ Règle : rien ici n'est inventé. Ce qui n'a pas encore été fourni reste marqu
   - accès au Discord privé.
 - Garantie : si le total en R des signaux sur le mois de facturation du membre est nul ou négatif, les 200 $ de ce mois sont remboursés en totalité. Le R est suivi personnellement par le trader. Aucun autre remboursement.
 - Pour qui : tous niveaux d'expérience. Utilisable sur comptes futures réels, challenges de prop firms futures et CFD, et comptes financés de prop firms.
-- Le trader : **Veyra** (pseudonyme public), plus de 7 ans de trading sur les futures (indiqué par le propriétaire le 25 octobre 2026). Rien d'autre n'a été fourni (vrai nom, photo, profils publics, résultats) : ne rien inventer.
+- Le trader : **Veyra** (pseudonyme public), plus de 7 ans de trading sur les futures (indiqué par le propriétaire le 25 octobre 2026). Rien d'autre n'a été fourni (vrai nom, photo, résultats) : ne rien inventer.
+- Profils publics : X https://x.com/HisokAAA777 (nom affiché « Veyra Trading », bio avec lien vers le site). TradingView : https://www.tradingview.com/u/Veyraaaa/ (profil personnel du trader, fourni le 25 octobre 2026).
 
 ## 3. Qui achète, et avec quels mots
 - Acheteurs : tous types de traders (indiqué par le propriétaire, sans segment prioritaire).
