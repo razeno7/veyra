@@ -14,6 +14,7 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 - `legal.html` — terms, privacy, risk disclosure, billing & cancellation.
 - `about.html` — "About Veyra": who calls the signals. Carries the `Person` JSON-LD (`@id` `https://veyra-trading.com/about#veyra`) that other pages reference.
 - `prop-firm-signals.html` — guide targeting "prop firm signals" (`Article` JSON-LD, author = the `Person` above). Names no specific firm; any claim about a named firm must link that firm's own rules page.
+- `nq-position-size-calculator.html` — free tool targeting "NQ position size calculator" (`WebPage` + `WebApplication` JSON-LD, author = the `Person` above). The calculator logic is in `calculator.js` (no inline script, for the CSP). NQ $20/point and MNQ $2/point come from CME contract specs, cited on the page.
 - `llms.txt` — plain-text site summary for AI tools. Update its page list when a page is added.
 - `styles.css` — all styles. Design tokens (colors, fonts, spacing) are CSS variables at the top in `:root`.
 - `main.js` — mobile menu, FAQ accordion, mobile sticky CTA, wires LaunchPass links.
@@ -33,7 +34,7 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 ## SEO
 - Each page has a `<link rel="canonical">` and Open Graph tags with absolute `https://veyra-trading.com/...` URLs. Keep them absolute.
 - The homepage carries `Organization` + `WebSite` + `Service` (Alpha Membership, with its `Offer`) JSON-LD; keep the price in sync with the page. Only add facts that are true; no ratings or review markup.
-- Link to clean URLs: `/`, `/about`, `/prop-firm-signals`, `/legal` (Cloudflare Pages strips `.html`).
+- Link to clean URLs: `/`, `/about`, `/prop-firm-signals`, `/nq-position-size-calculator`, `/legal` (Cloudflare Pages strips `.html`).
 - Content pages (about, guides) use `<main class="prose">` and end with a `.page-cta` block.
 - Favicons: `favicon-96.png` + `favicon-32.png` in `<head>`, `favicon.ico` at the root.
 
@@ -56,6 +57,6 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 - Refund: full refund of the month's $200 if the total R of the signals over the member's billing month is zero or negative. No other refunds.
 - Cancel anytime. All experience levels welcome.
 - Trader: Veyra (public alias), more than 7 years trading futures. Nothing else about the trader (real name, photo, results) has been supplied; don't add any.
-- X account: https://x.com/HisokAAA777 (display name "Veyra Trading", bio links to the site). It's the brand's account: `sameAs` on the `Organization`, `twitter:site`, footer link on `/`, `/about`, `/prop-firm-signals`.
-- TradingView profile: https://www.tradingview.com/u/Veyraaaa/ (the trader's own profile): `sameAs` on the `Person`, footer link on `/`, `/about`, `/prop-firm-signals`, mentioned in the About contact section.
+- X account: https://x.com/HisokAAA777 (display name "Veyra Trading", bio links to the site). It's the brand's account: `sameAs` on the `Organization`, `twitter:site`, footer link on `/`, `/about`, `/prop-firm-signals`, `/nq-position-size-calculator`.
+- TradingView profile: https://www.tradingview.com/u/Veyraaaa/ (the trader's own profile): `sameAs` on the `Person`, footer link on `/`, `/about`, `/prop-firm-signals`, `/nq-position-size-calculator`, mentioned in the About contact section.
 - Contact: contact@veyra-trading.com

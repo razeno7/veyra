@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NQ Position Size Calculator for Prop Firm Accounts</title>
+<meta name="description" content="Free NQ position size calculator: enter your prop firm daily loss limit and your stop in points, and get the most NQ or MNQ contracts you can risk per trade.">
+<meta name="theme-color" content="#080A0D">
+<link rel="canonical" href="https://veyra-trading.com/nq-position-size-calculator">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon-96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Veyra Trading">
+<meta property="og:url" content="https://veyra-trading.com/nq-position-size-calculator">
+<meta property="og:title" content="NQ Position Size Calculator for Prop Firm Accounts">
+<meta property="og:description" content="Daily loss limit and stop in, number of NQ or MNQ contracts out. Free, no sign-up.">
+<meta property="og:image" content="https://veyra-trading.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Veyra Trading — Private NQ Scalping Desk">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@HisokAAA777">
+<link rel="preload" href="assets/fonts/sora-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://veyra-trading.com/nq-position-size-calculator#webpage",
+      "url": "https://veyra-trading.com/nq-position-size-calculator",
+      "name": "NQ Position Size Calculator for Prop Firm Accounts",
+      "inLanguage": "en",
+      "datePublished": "2026-10-26",
+      "dateModified": "2026-10-26",
+      "isPartOf": { "@id": "https://veyra-trading.com/#website" },
+      "author": { "@id": "https://veyra-trading.com/about#veyra" },
+      "mainEntity": { "@id": "https://veyra-trading.com/nq-position-size-calculator#app" }
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "https://veyra-trading.com/nq-position-size-calculator#app",
+      "name": "NQ position size calculator",
+      "url": "https://veyra-trading.com/nq-position-size-calculator",
+      "description": "Works out the most NQ or MNQ futures contracts to risk per trade from a prop firm daily loss limit, an optional drawdown buffer and a stop distance in points.",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires JavaScript",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "author": { "@id": "https://veyra-trading.com/about#veyra" },
+      "publisher": { "@id": "https://veyra-trading.com/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://veyra-trading.com/about#veyra",
+      "name": "Veyra",
+      "url": "https://veyra-trading.com/about",
+      "sameAs": ["https://www.tradingview.com/u/Veyraaaa/"]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://veyra-trading.com/#organization",
+      "name": "Veyra Trading",
+      "url": "https://veyra-trading.com/",
+      "logo": "https://veyra-trading.com/assets/veyra-logo.png",
+      "sameAs": ["https://x.com/HisokAAA777"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://veyra-trading.com/#website",
+      "name": "Veyra Trading",
+      "url": "https://veyra-trading.com/"
+    }
+  ]
+}
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H212X7G6Y8"></script>
+<script src="/analytics.js"></script>
+<script src="config.js" defer></script>
+<script src="main.js" defer></script>
+<script src="calculator.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="/" aria-label="Veyra Trading — home">
+      <picture><source srcset="assets/veyra-logo.webp" type="image/webp"><img src="assets/veyra-logo.png" alt="Veyra Trading" width="520" height="141"></picture>
+    </a>
+    <div class="header-actions">
+      <a class="btn btn-primary btn-sm" href="/#membership" data-join>Join the Desk</a>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="prose">
+  <p class="label">Tool</p>
+  <h1>NQ position size calculator for prop firm accounts</h1>
+  <p class="updated">By Veyra · Updated October 2026 · <a href="/about">About Veyra</a></p>
+  <p class="intro">Enter your daily loss limit and your stop in points, and this works out the most NQ or MNQ contracts you can trade so that a run of stopped-out trades still stays inside your limit.</p>
+
+  <section class="calc" aria-labelledby="calc-h">
+    <h2 id="calc-h">Work out your size</h2>
+    <form id="calc" class="calc-form" novalidate>
+      <fieldset class="calc-field calc-instrument">
+        <legend>Instrument</legend>
+        <div class="calc-seg">
+          <label><input type="radio" name="instrument" value="20" checked> NQ <span>$20 / pt</span></label>
+          <label><input type="radio" name="instrument" value="2"> MNQ <span>$2 / pt</span></label>
+          <label><input type="radio" name="instrument" value="custom"> Other <span>CFD, custom</span></label>
+        </div>
+      </fieldset>
+      <div class="calc-field" id="custom-wrap" hidden>
+        <label for="ppv">Value of 1 point, per contract or lot ($)</label>
+        <input id="ppv" type="number" inputmode="decimal" min="0" step="any" placeholder="From your platform's symbol specs">
+      </div>
+      <div class="calc-field">
+        <label for="dll">Daily loss limit ($)</label>
+        <input id="dll" type="number" inputmode="decimal" min="0" step="any" value="1000">
+      </div>
+      <div class="calc-field">
+        <label for="dd">Room left to max drawdown ($) <span class="opt">optional</span></label>
+        <input id="dd" type="number" inputmode="decimal" min="0" step="any" placeholder="Leave empty to ignore">
+      </div>
+      <div class="calc-field">
+        <label for="streak">Stopped-out trades in a row to survive</label>
+        <input id="streak" type="number" inputmode="numeric" min="1" step="1" value="3">
+      </div>
+      <div class="calc-field">
+        <label for="stop">Stop distance (points)</label>
+        <input id="stop" type="number" inputmode="decimal" min="0" step="0.25" value="15">
+      </div>
+      <div class="calc-field">
+        <label for="fees">Fees per contract, round turn ($) <span class="opt">optional</span></label>
+        <input id="fees" type="number" inputmode="decimal" min="0" step="any" value="0">
+      </div>
+    </form>
+
+    <div class="calc-out" aria-live="polite">
+      <p class="calc-result"><span id="out-contracts">1</span> <span id="out-unit">NQ contract</span></p>
+      <dl class="calc-lines">
+        <div><dt>Risk budget per trade</dt><dd id="out-budget">$333.33</dd></div>
+        <div><dt>Risk per contract at your stop</dt><dd id="out-per">$300.00 <span>(60 ticks)</span></dd></div>
+        <div><dt>Risk per trade at this size</dt><dd id="out-risk">$300.00</dd></div>
+        <div><dt>Loss after 3 stops in a row</dt><dd id="out-streak">$900.00 · 90% of your limit</dd></div>
+      </dl>
+      <p class="calc-note" id="out-note">Example values. Change any field to recalculate.</p>
+    </div>
+    <noscript><p class="calc-note">The calculator needs JavaScript. The formula below gives the same result by hand.</p></noscript>
+  </section>
+
+  <h2>How the calculator works</h2>
+  <p>It takes three steps, and you can check each one by hand:</p>
+  <ol>
+    <li><strong>Risk budget per trade</strong> = your daily loss limit (or the room left to your max drawdown, if that’s smaller) ÷ the number of stopped-out trades in a row you want to survive.</li>
+    <li><strong>Risk per contract</strong> = stop distance in points × the dollar value of one point, plus fees.</li>
+    <li><strong>Contracts</strong> = risk budget ÷ risk per contract, rounded down to a whole contract.</li>
+  </ol>
+  <p>Rounding down matters: a fraction of a contract can’t be traded, and rounding up would put you over budget.</p>
+
+  <h2>NQ and MNQ point values</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Contract</th><th scope="col">1 point</th><th scope="col">1 tick (0.25 pt)</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">NQ, E-mini Nasdaq-100</th><td>$20</td><td>$5.00</td></tr>
+        <tr><th scope="row">MNQ, Micro E-mini Nasdaq-100</th><td>$2</td><td>$0.50</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Source: CME Group contract specifications for <a href="https://www.cmegroup.com/markets/equities/nasdaq/e-mini-nasdaq-100.contractSpecs.html" rel="noopener">E-mini Nasdaq-100</a> and <a href="https://www.cmegroup.com/trading/equity-index/us-index/micro-e-mini-nasdaq-100_contractSpecs_futures.html" rel="noopener">Micro E-mini Nasdaq-100</a>. MNQ tracks the same index at the same price with a tenth of the size, so ten MNQ carry the same risk as one NQ.</p>
+
+  <h2>A worked example</h2>
+  <p>Say your account has a $1,000 daily loss limit, you want to survive 3 stopped-out trades in a row, and the stop is 15 points away.</p>
+  <ul>
+    <li>Risk budget per trade: $1,000 ÷ 3 = $333.33.</li>
+    <li>On NQ, one contract risks 15 × $20 = $300. That’s 1 contract, and 3 stops in a row cost $900.</li>
+    <li>On MNQ, one contract risks 15 × $2 = $30. That’s 11 contracts ($330 per trade), and 3 stops in a row cost $990, which leaves almost no room for slippage, so you might choose 10.</li>
+  </ul>
+  <p>With a 20-point stop, one NQ contract risks $400, which is over the $333 budget, so the answer is 0 NQ. MNQ still fits: 8 contracts, $320 per trade. That’s why MNQ is useful on smaller accounts: it lets you size in steps of a tenth of an NQ.</p>
+  <p>These are example numbers to show the method, not a record of any trade.</p>
+
+  <h2>Sizing a NAS100 or US100 CFD</h2>
+  <p>On CFD prop-firm accounts the Nasdaq-100 is usually listed as NAS100 or US100, and the dollar value of one point depends on your broker and your lot size. Find it in your platform’s symbol or contract specifications, choose <strong>Other</strong> and enter it. The CFD price can differ slightly from NQ, so measure the stop on your own chart.</p>
+
+  <h2>What the calculator doesn’t cover</h2>
+  <ul>
+    <li><strong>Slippage.</strong> In a fast market a stop can fill worse than its price, so a real loss can be bigger than the number shown. Leaving some room under your limit helps.</li>
+    <li><strong>Trailing drawdown.</strong> If your firm’s drawdown trails your highest balance, the room left changes after every winning day. Update the field before each session.</li>
+    <li><strong>Your firm’s other rules.</strong> Consistency rules, news rules and limits on trading from third-party signals vary by firm. My guide to <a href="/prop-firm-signals">prop firm signals</a> lists what to check.</li>
+  </ul>
+  <p>The calculator does arithmetic on the numbers you enter. It isn’t investment advice, and position size is always your decision.</p>
+
+  <div class="page-cta">
+    <h2>Size first, then follow the call.</h2>
+    <p>Every one of my <a href="/">NQ futures signals</a> comes with a stop, so you can size it before you enter. Called live in the private Discord, Monday to Friday from the 9:30 a.m. New York open.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="/#membership" data-join>Join the Desk</a>
+      <a class="link-arrow" href="/#membership">View Membership
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <p class="note">Futures and CFD trading involves substantial risk of loss. Signals and live sessions do not guarantee results.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <picture><source srcset="assets/veyra-logo.webp" type="image/webp"><img src="assets/veyra-logo.png" alt="Veyra Trading" width="520" height="141" loading="lazy"></picture>
+        <p>Contact: <a href="mailto:contact@veyra-trading.com">contact@veyra-trading.com</a></p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/about">About Veyra</a>
+        <a href="/prop-firm-signals">Prop firm signals</a>
+        <a href="/nq-position-size-calculator">NQ position size calculator</a>
+        <a href="/legal#terms">Terms</a>
+        <a href="/legal#privacy">Privacy</a>
+        <a href="/legal#risk">Risk disclosure</a>
+        <a href="/legal#billing">Billing &amp; cancellation</a>
+        <a href="https://x.com/HisokAAA777" rel="me">Veyra on X</a>
+        <a href="https://www.tradingview.com/u/Veyraaaa/" rel="me">Veyra on TradingView</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>Futures trading involves substantial risk of loss. Signals and live sessions do not guarantee results. Prop-firm rules vary; check yours before trading from signals.</p>
+      <p>© 2026 Veyra Trading</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

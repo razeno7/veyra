@@ -29,9 +29,10 @@ Filled only from `site-context.md`, the live pages and git history. "Not availab
 | YouTube    |            |               |                        |                   |
 
 ## SEO ledger (pages changed, and when they can be judged)
-- https://veyra-trading.com/, changed 2026-10-25 (trader name, FAQ "Who calls the signals?", links to new pages, monthly price in schema; then descriptive H2s, meta description with "7+ years", X link in schema and footer; done at the owner's request inside the 90-day window), judge after 2027-01-23
+- https://veyra-trading.com/, changed 2026-10-25 (trader name, FAQ "Who calls the signals?", links to new pages, monthly price in schema; then descriptive H2s, meta description with "7+ years", X link in schema and footer; 2026-10-26 FAQ link to the calculator; done at the owner's request inside the 90-day window), judge after 2027-01-23
 - https://veyra-trading.com/about, published 2026-10-25 (X link added the same day), judge after 2027-01-23
-- https://veyra-trading.com/prop-firm-signals, published 2026-10-25, judge after 2027-01-23
+- https://veyra-trading.com/prop-firm-signals, published 2026-10-25 (link to the calculator added 2026-10-26 at the owner's request), judge after 2027-01-23
+- https://veyra-trading.com/nq-position-size-calculator, published 2026-10-26 (owner approved the new page and the links to it from `/` and `/prop-firm-signals` inside the 90-day window), judge after 2027-01-24
 - https://veyra-trading.com/legal, content changed 2026-10-22 (favicon tag only on 2026-10-25), judge after 2027-01-20
 
 ## Rules

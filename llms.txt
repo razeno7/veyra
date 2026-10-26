@@ -7,6 +7,7 @@
 - [NQ futures signals, called live in Discord](https://veyra-trading.com/): what the membership includes, schedule, price, the positive-R refund policy and FAQ
 - [About Veyra](https://veyra-trading.com/about): who calls the signals and how the R of each signal is tracked
 - [Prop firm signals](https://veyra-trading.com/prop-firm-signals): what to check in a prop firm's rules before following signals on a challenge or funded account
+- [NQ position size calculator](https://veyra-trading.com/nq-position-size-calculator): free calculator for the number of NQ or MNQ contracts to risk per trade from a daily loss limit and a stop in points, with the formula and CME point values
 - [Legal](https://veyra-trading.com/legal): terms, privacy, risk disclosure, billing and cancellation
 
 ## Elsewhere
