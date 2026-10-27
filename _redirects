@@ -1,0 +1,8 @@
+# Internal project notes live in the repo root, which Cloudflare Pages publishes as-is.
+# Send them to the homepage so they can't be read or indexed. Add any new .md file here.
+/CLAUDE.md / 301
+/GROWTH.md / 301
+/README.md / 301
+/seo-process.md / 301
+/site-context.md / 301
+/topical-plan.md / 301
