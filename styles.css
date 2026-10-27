@@ -379,8 +379,10 @@ p { margin: 0; }
 .calc-lines dd span { color: var(--text-muted); }
 .prose .calc-note { font-size: 14px; color: var(--text-muted); }
 @media (max-width: 600px) {
+  /* Keeps the inputs near the top of the screen on phones: the three instruments stay on one row. */
+  .calc { margin-top: 28px; }
   .calc-form { grid-template-columns: 1fr; }
-  .calc-seg { grid-template-columns: 1fr; }
+  .calc-seg label { padding: 10px; }
   .calc-lines div { flex-direction: column; gap: 2px; }
   .calc-lines dd { text-align: left; }
 }
