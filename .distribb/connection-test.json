@@ -1,0 +1,13 @@
+{
+  "id": "connection-test",
+  "slug": "distribb-connection-test",
+  "date": "2026-11-02T18:56:07.762Z",
+  "status": "Draft",
+  "imagePath": "assets/blog/distribb-connection-test.png",
+  "imageSource": "https://distribb.io/static/images/logo.png",
+  "tags": [
+    "test",
+    "webhook"
+  ],
+  "keys": []
+}
