@@ -205,6 +205,11 @@ async function processArticle(gh, eventType, article, idempotencyKey) {
   return { id, slug, status: 'pending_review', pull_request: pr.html_url };
 }
 
+// Reachability checks. Without these a GET or HEAD falls through to the site's 404 page,
+// which senders report as "the endpoint doesn't exist". They reveal nothing and change nothing.
+export const onRequestGet = () => json(200, { status: 'ok', accepts: 'POST' });
+export const onRequestHead = () => new Response(null, { status: 200, headers: { 'Cache-Control': 'no-store' } });
+
 export async function onRequestPost({ request, env }) {
   if (!env.DISTRIBB_WEBHOOK_TOKEN || !env.GITHUB_TOKEN) {
     console.error('Missing DISTRIBB_WEBHOOK_TOKEN or GITHUB_TOKEN');
