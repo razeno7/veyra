@@ -7,7 +7,7 @@ Règle : rien ici n'est inventé. Ce qui n'a pas encore été fourni reste marqu
 - URL : https://veyra-trading.com
 - CMS : aucun. Site statique (HTML, CSS, JavaScript) dans le dépôt GitHub `razeno7/veyra`, hébergé sur Cloudflare Pages, redéployé automatiquement à chaque push sur `main`.
 - Paiement et accès Discord : LaunchPass (Stripe en dessous). Page d'inscription : https://www.launchpass.com/veyra-trading/alpha-membership
-- Pages : `/` (accueil), `/about` (le trader), `/prop-firm-signals` (guide, mot-clé « prop firm signals »), `/legal` (conditions, confidentialité, risques, facturation).
+- Pages : `/` (accueil), `/about` (le trader), `/prop-firm-signals` (guide, mot-clé « prop firm signals »), `/nq-position-size-calculator` (outil, mot-clé « NQ position size calculator »), `/legal` (conditions, confidentialité, risques, facturation).
 
 ## 2. Ce qu'on vend, à qui, à quel prix
 - Offre : Alpha Membership, une membership Discord privée.

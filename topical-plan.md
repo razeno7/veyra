@@ -60,3 +60,50 @@ After publishing, click every link and check it lands on the promised answer.
 
 ## 7. Next problem (proposed)
 After "can I follow signals" and "how many contracts", the same buyer's next problem is staying inside a trailing drawdown. Check the SERP for "trailing drawdown calculator" before planning a page; extend the calculator if the answer is the same.
+
+## 8. 12-week campaign, 2026-11-02 to 2027-01-25 (proposed)
+Goal: be a cited, findable source for "NQ futures signals" and "prop firm signals" in Google and AI answers. "Best" is the searcher's word: we never call ourselves the best or rank ourselves first (`GROWTH.md`).
+
+### Limits of the data (2026-11-02)
+- No keyword tool is connected (Rankability, Ahrefs, Semrush): no volumes, no difficulty. Nothing below is ordered by volume.
+- SERP notes come from Claude Code's web search, which is not a Google results page. They show who publishes on a topic, not positions.
+- Search Console figures are not readable from here. Rule 1 of `seo-process.md` still needs them from the owner before any new page.
+
+### Site audit, 2026-11-02
+- Passes, tested live: all 5 pages return 200, unknown URLs 404, `www`, `.html` and trailing-slash URLs redirect to the clean URL, internal `.md` files 301 to `/`. GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, PerplexityBot, Googlebot and Bingbot user agents all get 200. This tests the user-agent string only, not Cloudflare's handling of the real bots' IPs.
+- Passes, in the repo: JSON-LD parses on every page that has it, canonicals are absolute, GA4 is on every page, `sitemap.xml` and `llms.txt` list all pages.
+- Issue 1, accuracy, highest priority: the homepage FAQ opens with "Yes." to "Can I use the signals on a prop-firm account?", and `/prop-firm-signals` section 1 says "Some firms let you take trades from an outside signal provider as long as you place each order yourself." Section 6 has no firm saying that in writing, and BluSky bans it by name. A buyer who relies on this could lose an account. Owner decision needed.
+- Issue 2, authority: no referring-domain data, and `/about` shows no real public work (section 5). Technical work won't fix this.
+- Not an issue: nothing technical blocks ranking today.
+
+### Searches by the five stages of awareness
+| Stage | Searches (unmeasured) | Page | Status | Priority |
+|---|---|---|---|---|
+| Most aware | Veyra Trading, Veyra NQ signals | `/`, `/about` | live | Monitor only |
+| Product aware | Veyra Trading review, Veyra refund | `/#refund-terms`, `/about` | live; no reviews exist, none to be invented | Monitor only |
+| Solution aware | NQ futures signals, NQ signals Discord, best NQ signals, prop firm signals | `/`, `/prop-firm-signals` | live, in 90-day window | 3: earn authority, don't rewrite |
+| Problem aware | prop firms that allow signals, can I use signals on Topstep | research page (section 6) | proposed, blocked on owner | 1 |
+| Problem aware | trailing drawdown calculator NQ | tool or calculator extension (section 7) | proposed | 2 |
+| Unaware | NQ opening range, first hour NQ | none | not planned | 4: needs the trader's own expertise; results are crowded with TradingView scripts and vendor posts |
+
+Why this order: problem-aware searches are where a new site has an opening, and they lead to the buyer's real question.
+- The firm-by-firm question is still open. On 2026-11-02 no result answered it with the firms' own wording. Closest page: JP Trading Capital's forex guide, which names no firm and cites no rulebook.
+- For trailing drawdown, a calculator already exists (CrossTrade, a vendor guide with a $50K Apex example), alongside TradingView scripts. Weaker gap than the research page.
+
+### Content models
+The method calls for a model already proven to earn visibility. We have no proven model of our own until Search Console shows one. Working models, unproven for us: the calculator page for tools; section 6's dated evidence table for research.
+
+### Backlog (no project tool connected; this table is the tracker)
+| # | Task | Owner | Depends on | Window |
+|---|---|---|---|---|
+| 1 | Decide the wording of the FAQ "Yes." and guide section 1 | Owner | Section 6 | Week 1 |
+| 2 | Share Search Console figures: indexed pages, queries, clicks | Owner | — | Week 1 |
+| 3 | Copy Apex's prohibited-activities text from a browser, with date | Owner | — | Week 1 |
+| 4 | Apply task 1, with diff shown first | Claude | 1 | Week 1 |
+| 5 | Re-check section 6 sentences, then write the research page | Claude | 1, 2, 3 | Weeks 2–3 |
+| 6 | Add links to the research page (section 4 sources), inside the 90-day window | Claude | 5, owner approval | Weeks 2–3 |
+| 7 | Decide: new trailing drawdown tool or calculator extension | Owner | 2 | Weeks 4–5 |
+| 8 | Publish real TradingView ideas on the profile | Owner | — | Ongoing |
+| 9 | Start the full monthly R log from a fixed date, legal review before publishing | Owner | Legal review | Start by week 4 |
+| 10 | Offer the research page to sites and forums where the question is asked, as the trader, disclosing the membership. No fake accounts or bought links | Owner | 5 | Weeks 4–12 |
+| 11 | Judge pages per the SEO ledger in `GROWTH.md`; channels on paying customers | Both | Ledger dates | From 2027-01-25 |

@@ -28,6 +28,13 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 ## Internal files
 - Cloudflare Pages publishes the whole repo root, `.md` notes included. `_redirects` sends each internal `.md` file to `/` with a 301. Any new internal file must be added there, or it is publicly readable.
 
+## Distribb articles
+- `functions/api/blog-webhook.js` (Cloudflare Pages Function, `POST /api/blog-webhook`) receives Distribb articles. `functions/_lib/article.js` sanitizes the HTML, renders the page and writes the review checklist.
+- Each article becomes a pull request from `distribb/<id>` with `blog/<slug>.html`, `.distribb/<id>.json` (id, slug, date, processed Idempotency-Keys) and `assets/blog/`. **It never writes to `main`: nothing goes live until the owner merges.** Keep it that way; articles are AI-written and the content rules above apply to them.
+- Secrets live in Cloudflare Pages (Production only), never in the repo: `DISTRIBB_WEBHOOK_TOKEN`, `GITHUB_TOKEN`.
+- This setup doesn't use Distribb's backlink exchange (recommendation of 2 November 2026; the owner can revisit it). External links in articles get `rel="nofollow noopener"` and are listed in the pull request.
+- Merging a new article still needs `sitemap.xml`, `llms.txt`, internal links, the anchor map and the SEO ledger; the pull request lists them.
+
 ## Security headers
 - `_headers` sets HSTS and a strict Content-Security-Policy: only same-origin scripts, styles, fonts and images (inline `style` attributes allowed, inline `<script>` code is not). Adding any third-party script, font, image, iframe or analytics requires updating the CSP in `_headers`, or it will be blocked in production.
 
