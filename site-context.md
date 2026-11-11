@@ -44,7 +44,10 @@ Ce qui distingue Veyra : un seul trader, un seul marché (NQ), des signaux annon
 
 ## 6. Pages qui rapportent
 - Google Search Console : propriété de domaine vérifiée par DNS le 24 octobre 2026. Les données ne sont pas lisibles par les outils de ce dépôt (pas d'accès API Google) : demander les chiffres au propriétaire.
-- Données de clics : non disponibles, le site est trop récent (en ligne depuis le 21 octobre 2026).
+- Données Search Console fournies par le propriétaire le 11 novembre 2026 (export « 3 derniers mois », recherche Web, du 20 octobre au 9 novembre 2026) : 7 clics, 58 impressions au total. Trop peu pour juger une page ou un mot-clé.
+  - Pages : `/` 3 clics, 30 impressions, position 7,3 ; `/prop-firm-signals` 2 clics, 18 impressions, position 4,4 ; `/legal` 1 clic, 19 impressions, position 6,2 ; `/about` 1 clic, 16 impressions, position 6,3 ; `/nq-position-size-calculator` 0 clic, 8 impressions, position 9,8. Les cinq pages reçoivent des impressions.
+  - Requêtes affichées : « prop firm signals » 1 clic, 2 impressions, position 10,5 ; « veyra trading » 0 clic, 3 impressions, position 6,7 ; « veyra group » 2 impressions ; « veyra-nrvided » 1 impression. Les autres requêtes sont masquées par Google (trop rares).
+  - Pays : France 4 clics sur 12 impressions, États-Unis 1 clic sur 22 impressions.
 
 ## 7. Ce qu'on ne doit jamais faire
 - Inventer des résultats, des captures de trades, des témoignages, des avis, des notes en étoiles, un nombre de membres ou des promesses de gains.
