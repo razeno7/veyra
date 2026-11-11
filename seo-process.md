@@ -21,6 +21,8 @@ Business facts, audience, competitors and limits are in `site-context.md`. Read 
 - **Rule 3:** the site has five pages (`/`, `/about`, `/prop-firm-signals`, `/nq-position-size-calculator`, `/legal`). Five topical body links per page are not possible yet. As of 26 October 2026: `/prop-firm-signals` gets 4 (2 from `/`, 1 from `/about`, 1 from `/nq-position-size-calculator`), `/about` gets 3 (1 each from `/`, `/prop-firm-signals`, `/nq-position-size-calculator`), `/nq-position-size-calculator` gets 2 (1 from `/`, 1 from `/prop-firm-signals`; `/about` has no sizing topic to link from), plus footer links. Do not add forced or off-topic links to reach the number; flag the shortfall instead, and add links from each new on-topic page.
 - **Rule 5:** the trader's public alias is **Veyra** (owner, 25 October 2026). The `Person` node lives on `/about` with `@id` `https://veyra-trading.com/about#veyra`; reference that `@id` as `author` on any new article. Google no longer shows FAQ rich results for most sites; `FAQPage` is still valid markup but expect no visual effect in search.
 
+- **Rule 3, 11 November 2026:** `/prop-firms-that-allow-signals` gets 4 body links (1 each from `/`, `/prop-firm-signals`, `/nq-position-size-calculator`, `/about`) plus footer links. One short of five; no fifth on-topic source exists yet.
+
 ## Keyword and anchor map (rules 2 and 4)
 
 | Page | Main keyword (title starts with it) | Anchor text used to link to it |
@@ -28,6 +30,7 @@ Business facts, audience, competitors and limits are in `site-context.md`. Read 
 | `/` | NQ futures signals | "NQ futures signals" |
 | `/about` | About Veyra | "About Veyra" |
 | `/prop-firm-signals` | prop firm signals | "prop firm signals" |
+| `/prop-firms-that-allow-signals` | prop firms that allow signals | "prop firms that allow signals" |
 | `/nq-position-size-calculator` | NQ position size calculator | "NQ position size calculator" |
 | `/legal` | none (legal page) | "Terms", "Privacy", "Risk disclosure", "Billing & cancellation" (footer) |
 

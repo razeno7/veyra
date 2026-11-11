@@ -16,7 +16,7 @@ Rules from `seo-process.md` and `site-context.md` still apply: no invented facts
 | Who calls the signals? | About Veyra | Author page | `/about` | live | Real public work (see 5) |
 | What do I check before following signals on a prop account? | prop firm signals, signals for prop firm challenge | Pillar guide | `/prop-firm-signals` | live | — |
 | How many NQ/MNQ contracts can I trade? | NQ position size calculator, MNQ position size calculator, NQ contract calculator | Tool | `/nq-position-size-calculator` | live | CME specs (cited) |
-| Which futures prop firms allow trading from signals placed by hand? | prop firms that allow signals, can I use signals on Topstep/Apex… | Research page | to be decided | proposed | Section 6 |
+| Which futures prop firms allow trading from signals placed by hand? | prop firms that allow signals, can I use signals on Topstep/Apex… | Research page | `/prop-firms-that-allow-signals` | drafted 2026-11-11 on branch `prop-firm-rules-research`, live once the owner merges | Section 6 |
 | How do I size around a trailing drawdown? | trailing drawdown calculator NQ | Tool or guide | to be decided | proposed | SERP check first |
 
 ## 3. Pillar
@@ -56,6 +56,7 @@ After publishing, click every link and check it lands on the promised answer.
   | Topstep | https://help.topstep.com/en/articles/10296582-prohibited-conduct | Prohibited: "performing trades in concert with others (including unconnected accounts or third parties) to pool risk, hedge aggregate positions, or trade the same or opposite strategy simultaneously" | signals not named; coordinated trading prohibited |
   | Apex Trader Funding | https://apextraderfunding.com/help-center/getting-started/prohibited-activities/ and the PA compliance article | Not collected: the site blocks automated requests. Owner to copy the text from a browser. | pending |
 - First-pass reading: none of the five firms read allows following a third-party signal provider in writing; BluSky bans it by name, Tradeify and Alpha Futures ban copying another person's trades. This contradicts the plain "Yes." in the homepage FAQ "Can I use the signals on a prop-firm account?" and needs an owner decision before the research page is written.
+- Re-check 2026-11-11: every sentence above was found again, word for word, on the same pages (BluSky, Tradeify, Alpha Futures terms and help center, Take Profit Trader blog, Topstep). Apex still returns 403 to automated requests and stays out of the count. Next re-check due 2027-02-11.
 - Publish: the method, the table with links to each firm's page (required by `CLAUDE.md`), the date, and "check the current rules yourself". No ranking of firms, no affiliate links.
 
 ## 7. Next problem (proposed)

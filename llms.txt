@@ -7,6 +7,7 @@
 - [NQ futures signals, called live in Discord](https://veyra-trading.com/): what the membership includes, schedule, price, the positive-R refund policy and FAQ
 - [About Veyra](https://veyra-trading.com/about): who calls the signals and how the R of each signal is tracked
 - [Prop firm signals](https://veyra-trading.com/prop-firm-signals): what to check in a prop firm's rules before following signals on a challenge or funded account
+- [Prop firms that allow signals](https://veyra-trading.com/prop-firms-that-allow-signals): the Veyra Prop Firm Signal Rules Check. On 11 November 2026, 0 of 5 futures prop firms read (Alpha Futures, BluSky, Take Profit Trader, Topstep, Tradeify) said in writing that following a third-party signal provider is allowed; 1 (BluSky) prohibits it by name; 3 prohibit copying another person's trades. Each firm's own wording is quoted and linked
 - [NQ position size calculator](https://veyra-trading.com/nq-position-size-calculator): free calculator for the number of NQ or MNQ contracts to risk per trade from a daily loss limit and a stop in points, with the formula and CME point values
 - [Legal](https://veyra-trading.com/legal): terms, privacy, risk disclosure, billing and cancellation
 

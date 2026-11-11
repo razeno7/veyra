@@ -14,6 +14,7 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 - `legal.html` — terms, privacy, risk disclosure, billing & cancellation.
 - `about.html` — "About Veyra": who calls the signals. Carries the `Person` JSON-LD (`@id` `https://veyra-trading.com/about#veyra`) that other pages reference.
 - `prop-firm-signals.html` — guide targeting "prop firm signals" (`Article` JSON-LD, author = the `Person` above). Names no specific firm; any claim about a named firm must link that firm's own rules page.
+- `prop-firms-that-allow-signals.html` — research page targeting "prop firms that allow signals" (`Article` JSON-LD, author = the `Person` above): the "Veyra Prop Firm Signal Rules Check", each firm's own wording quoted, linked (`rel="nofollow noopener"`) and dated. Evidence log and counting rules are in `topical-plan.md` section 6. Re-read every firm's page before changing the date or the counts (next re-check due 11 February 2027); never add a firm without its own page as the source.
 - `nq-position-size-calculator.html` — free tool targeting "NQ position size calculator" (`WebPage` + `WebApplication` JSON-LD, author = the `Person` above). The calculator logic is in `calculator.js` (no inline script, for the CSP). NQ $20/point and MNQ $2/point come from CME contract specs, cited on the page.
 - `topical-plan.md` — page plan, link plan and the open research question for the "prop firm signals" topic. Read it before creating a page.
 - `llms.txt` — plain-text site summary for AI tools. Update its page list when a page is added.
@@ -45,7 +46,7 @@ Static marketing site for Veyra Trading, a private Discord membership (Alpha Mem
 ## SEO
 - Each page has a `<link rel="canonical">` and Open Graph tags with absolute `https://veyra-trading.com/...` URLs. Keep them absolute.
 - The homepage carries `Organization` + `WebSite` + `Service` (Alpha Membership, with its `Offer`) JSON-LD; keep the price in sync with the page. Only add facts that are true; no ratings or review markup. The `Organization` `logo` is `assets/apple-touch-icon.png` (180×180, V on dark, opaque) because the horizontal logo has white lettering on transparent and disappears on Google's white backgrounds.
-- Link to clean URLs: `/`, `/about`, `/prop-firm-signals`, `/nq-position-size-calculator`, `/legal` (Cloudflare Pages strips `.html`).
+- Link to clean URLs: `/`, `/about`, `/prop-firm-signals`, `/prop-firms-that-allow-signals`, `/nq-position-size-calculator`, `/legal` (Cloudflare Pages strips `.html`).
 - Content pages (about, guides) use `<main class="prose">` and end with a `.page-cta` block.
 - Favicons: `favicon-96.png` + `favicon-32.png` in `<head>`, `favicon.ico` at the root.
 

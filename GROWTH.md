@@ -12,6 +12,7 @@ Filled only from `site-context.md`, the live pages and git history. "Not availab
 
 ## Proof bank (the ONLY numbers you may use)
 - None yet. No published results, member counts, R totals or customer cases exist. Until a line is added here with a date and a source, no growth content may contain a performance or customer number.
+- Veyra Prop Firm Signal Rules Check, 2026-11-11 (source: each firm's own page, log in `topical-plan.md` section 6): 0 of 5 futures prop firms read say in writing that following a third-party signal provider is allowed; 1 (BluSky) prohibits it by name; 3 (Alpha Futures, BluSky, Tradeify) prohibit copying another person's trades. Not a performance number. Valid until the next re-check (due 2027-02-11).
 - Trader experience: "Veyra", more than 7 years trading futures (owner, stated 2026-10-25). Not a performance number.
 
 ## Voice
@@ -33,6 +34,7 @@ Filled only from `site-context.md`, the live pages and git history. "Not availab
 - https://veyra-trading.com/about, published 2026-10-25 (X link added the same day; 2026-10-27 square logo in `Organization` schema, after the SEO audit, at the owner's request), judge after 2027-01-23
 - https://veyra-trading.com/prop-firm-signals, published 2026-10-25 (link to the calculator added 2026-10-26 at the owner's request), judge after 2027-01-23
 - https://veyra-trading.com/nq-position-size-calculator, published 2026-10-26 (owner approved the new page and the links to it from `/` and `/prop-firm-signals` inside the 90-day window; 2026-10-27 shorter intro and one-row instrument picker on phones so the inputs show without scrolling, after the SEO audit, at the owner's request), judge after 2027-01-24
+- https://veyra-trading.com/prop-firms-that-allow-signals, drafted 2026-11-11 on branch `prop-firm-rules-research` (not live until the owner merges), judge 90 days after the merge date. The same branch changes the prop-firm FAQ answer on `/`, section 1 of `/prop-firm-signals`, and adds one link each on `/about` and `/nq-position-size-calculator`, inside their 90-day windows, to fix an accuracy issue (topical-plan.md, issue 1)
 - https://veyra-trading.com/legal, content changed 2026-10-22 (favicon tag only on 2026-10-25; 2026-10-27 skip link and `twitter:site` only, no copy change), judge after 2027-01-20
 
 ## Rules
